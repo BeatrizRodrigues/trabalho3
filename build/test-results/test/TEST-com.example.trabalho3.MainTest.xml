@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.example.trabalho3.MainTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2023-03-04T14:45:23" hostname="LAPTOP-FK883UTG" time="0.104">
+<testsuite name="com.example.trabalho3.MainTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-03-04T16:33:08" hostname="LAPTOP-FK883UTG" time="0.036">
   <properties/>
-  <testcase name="testTest1()" classname="com.example.trabalho3.MainTest" time="0.076"/>
-  <testcase name="testTest2()" classname="com.example.trabalho3.MainTest" time="0.007"/>
-  <testcase name="testTest3()" classname="com.example.trabalho3.MainTest" time="0.004"/>
-  <testcase name="testTest4()" classname="com.example.trabalho3.MainTest" time="0.002"/>
-  <testcase name="testTest5()" classname="com.example.trabalho3.MainTest" time="0.001"/>
-  <testcase name="testOutrasFuncoes()" classname="com.example.trabalho3.MainTest" time="0.002"/>
-  <system-out><![CDATA[
-Numero de Livros Emprestados: 0
-Data de Empr?stimo: Sat Mar 04 11:45:23 BRT 2023
-Data de Devolu??o: Wed Mar 08 11:45:23 BRT 2023
-Numero de Livros Emprestados: 0
-Data de Empr?stimo: Sat Mar 04 11:45:23 BRT 2023
-Data de Devolu??o: Tue Mar 14 11:45:23 BRT 2023Aluno em Debito
-Aluno Inexistente
-]]></system-out>
+  <testcase name="testOutrasFuncoes()" classname="com.example.trabalho3.MainTest" time="0.036"/>
+  <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

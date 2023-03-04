@@ -64,7 +64,34 @@ public class MainTest {
     }
 
     @Test
-    void testOutrasFuncoes() throws ParseException{
+    void testSetDataEmprestimo() throws ParseException{
+        Date data = new Date();
+        Emprestimo e = new Emprestimo();
+
+        e.setDataEmprestimo(data);
+        assertEquals(data, e.getDataEmprestimo());
+
+    }
+
+    @Test
+    void testSetDataDevolucao() throws ParseException{
+        Date data = new Date();
+        Emprestimo e = new Emprestimo();
+
+        e.setDataEmprestimo(data);
+        e.getDataEmprestimo();
+
+        Livro l1 = new Livro(1);
+        Livro l2 = new Livro(2);
+        Item i1 = new Item(l1);
+
+        i1.setDataDevolucao(data);
+        assertEquals(data, i1.getDataDevolucao());
+
+    }
+
+    @Test
+    void testSetLivro() throws ParseException{
         Date data = new Date();
         Emprestimo e = new Emprestimo();
 
@@ -78,13 +105,8 @@ public class MainTest {
         i1.setDataDevolucao(data);
         i1.getDataDevolucao();
         i1.setLivro(l2);
-        i1.getLivro();
+        assertEquals(l2, i1.getLivro());
 
-        l2.titulo.setPrazo(3);
-
-        Aluno a = new Aluno("12");
-        a.getNome();
-        a.setNome(null);
     }
 
 }
