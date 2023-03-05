@@ -11,13 +11,9 @@ public class MainTest {
 
     @Test
     void testTest1() throws ParseException {
-        int[] codigos= {0,0,0,0,0,0,0,0,0,0,0,0,0,0};
+        int[] codigos= {0,1,2,3};
         String aluno = "2";
         int num = 4;
-        for(int i=0;i<num;i++)
-        {
-            codigos[i]=i;
-        }
 
         Controle c = new Controle();
         assertEquals(true, c.emprestar(aluno, codigos, num));

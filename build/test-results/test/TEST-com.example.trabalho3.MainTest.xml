@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.example.trabalho3.MainTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-03-04T16:33:08" hostname="LAPTOP-FK883UTG" time="0.036">
+<testsuite name="com.example.trabalho3.MainTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-03-05T15:38:12" hostname="LAPTOP-FK883UTG" time="0.05">
   <properties/>
-  <testcase name="testOutrasFuncoes()" classname="com.example.trabalho3.MainTest" time="0.036"/>
-  <system-out><![CDATA[]]></system-out>
+  <testcase name="testTest1()" classname="com.example.trabalho3.MainTest" time="0.05"/>
+  <system-out><![CDATA[
+Numero de Livros Emprestados: 0
+Data de Empr?stimo: Sun Mar 05 12:38:12 BRT 2023
+Data de Devolu??o: Thu Mar 09 12:38:12 BRT 2023]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
